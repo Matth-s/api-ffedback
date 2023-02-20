@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 });
 
 app.use((req, res) => {
-  res.json(data);
+  res.json({data});
 });
 
 app.use("/feedback", feedbackRoutes);
